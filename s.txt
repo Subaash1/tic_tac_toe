@@ -1,0 +1,25 @@
+form {
+    --background: #ffffff;
+    --text: #414856;
+    --radio: #7c96b2;
+    --radio-checked: #4f29f0;
+    --radio-size: 20px;
+    --width: 100px;
+    --height: 140px;
+    --border-radius: 10px;
+    background: var(--background);
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    color: var(--text);
+    position: relative;
+    box-shadow: 0 10px 30px rgba(65, 72, 86, 0.05);
+    padding: 30px 45px;
+    display: grid;
+    grid-template-columns: auto var(--radio-size);
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-between;
+    justify-items: start;
+    gap: 30px;
+}

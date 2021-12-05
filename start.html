@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tic Tac Toe - Login</title>
-    <link rel="stylesheet" href="css/start.css">
-</head>
+    <link rel="stylesheet" href="css/start.css" />
+  </head>
 
-<body>
-
-    <form class='login-form'>
-        <div class="flex-row">
-            <input id="easy_mode" class='lf--input mode' type='radio' value="easy" name="mode">
-            <label for="easy_mode">Easy</label>
-        </div>
-        <div class="flex-row">
-            <input id="medium_mode" class='lf--input mode' type='radio' value="medium" name="mode">
-            <label for="medium_mode">Medium</label>
-
-        </div>
-        <div class="flex-row">
-            <input id="hard_mode" class='lf--input mode' type='radio' value="hard" name="mode">
-            <label for="hard_mode">Hard</label>
-
-        </div>
-        <div class="flex-row">
-            <input id="start" class='lf--input' value="Start Game" type='button'>
-        </div>
+  <body>
+    <form class="mode-form">
+      <label for="easy_mode">Easy</label>
+      <input id="easy_mode" type="radio" name="mode" value="1" checked />
+      <label for="medium_mode">Medium</label>
+      <input id="medium_mode" type="radio" name="mode" value="2" />
+      <label for="hard_mode">Hard</label>
+      <input id="hard_mode" type="radio" name="mode" value="3" />
+      <input id="start" class="lf--input" value="Start Game" type="button" />
     </form>
-    <script src="js/login.js"></script>
-</body>
 
+    <script src="js/login.js"></script>
+  </body>
 </html>
